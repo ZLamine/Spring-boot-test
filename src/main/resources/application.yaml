@@ -1,0 +1,16 @@
+server:
+  port: 8090
+
+endpoints:
+  autoconfig.enabled: false
+  beans.enabled: false
+  configprops.enabled: false
+  dump.enabled: false
+  env.enabled: false
+  mappings.enabled: false
+  metrics.enabled: true
+  trace.enabled: false
+  actuator.enabled: false
+  info.enabled: false
+  health.enabled: true
+  prometheus.enabled: true
